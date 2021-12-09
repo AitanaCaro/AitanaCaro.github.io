@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda Alojamiento</title>
+    <link rel="stylesheet" href="../css/BusquedaAlojamiento.css">
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" alt="Logo empresa" class="logo">
+        <nav>
+            <ul>
+                <li>
+                    Hoteles
+                </li>
+                <li>
+                    Vuelos
+                </li>
+                <li>
+                    Alquiler de coches
+                </li>
+                <li>
+                    Actividades
+                </li>
+                <li>
+                    Taxis
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <form>
+                <label class="Descripcion" for="ProvinciaV">Provincia a la que quieres viajar </label>
+                <div name="Provincia">
+                    <select class="Viaje" id="ProvinciaV" name="ProvinciaV"> 
+                        <option value="" selected="selected"></option>
+                        <option value="1" >Álava</option>
+                        <option value="2" >Albacete</option>
+                        <option value="3" >Alicante</option>
+                        <option value="4" >Almería</option>
+                        <option value="5" >Asturias</option>
+                        <option value="6" >Ávila</option>
+                        <option value="7" >Badajoz</option>
+                        <option value="8" >Barcelona</option>
+                        <option value="9" >Burgos</option>
+                        <option value="10" >Cáceres</option>
+                        <option value="11" >Cádiz</option>
+                        <option value="12" >Cantabria</option>
+                        <option value="13" >Castellón</option>
+                        <option value="14" >Ciudad Real</option>
+                        <option value="15" >Córdoba</option>
+                        <option value="16" >Cuenca</option>
+                        <option value="17" >Gerona</option>
+                        <option value="18" >Granada</option>
+                        <option value="19" >Guadalajara</option>
+                        <option value="20" >Guipúzcoa</option>
+                        <option value="21" >Huelva</option>
+                        <option value="22" >Huesca</option>
+                        <option value="23" >Islas Baleares</option>
+                        <option value="24" >Jaén</option>
+                        <option value="25" >La Coruña</option>
+                        <option value="26" >La Rioja</option>
+                        <option value="27" >Las Palmas</option>
+                        <option value="28" >León</option>
+                        <option value="29" >Lérida</option>
+                        <option value="30" >Lugo</option>
+                        <option value="31" >Madrid</option>
+                        <option value="32" >Málaga</option>
+                        <option value="33" >Murcia</option>
+                        <option value="34" >Navarra</option>
+                        <option value="35" >Orense</option>
+                        <option value="36" >Palencia</option>
+                        <option value="37" >Pontevedra</option>
+                        <option value="38" >Salamanca</option>
+                        <option value="39" >Santa Cruz de Tenerife</option>
+                        <option value="40" >Segovia</option>
+                        <option value="41" >Sevilla</option>
+                        <option value="42" >Soria</option>
+                        <option value="43" >Tarragona</option>
+                        <option value="44" >Teruel</option>
+                        <option value="45" >Toledo</option>
+                        <option value="46" >Valencia</option>
+                        <option value="47" >Valladolid</option>
+                        <option value="48" >Vizcaya</option>
+                        <option value="49" >Zamora</option>
+                        <option value="50" >Zaragoza</option>
+                    </select>
+                </div>
+                <div name="Fecha entrada">
+                <label class="Descripcion" for="Fecha">Fecha de entrada </label>
+                <input id="Fecha_1" name="Fecha_1" class="Texto_Fecha" type="date">
+                </div>
+                <div name="Fecha salida">
+                <label class="Descripcion" for="Fecha 2">Fecha de salida </label>
+                <input id="Fecha_2" name="Fecha_2" class="Texto_Fecha" type="date">
+                </div>
+                <label class="Descripcion" for="Alojamiento">Tipo de Alojamiento:</label>
+                <div name="Alojamiento_1">
+                    <input id="Hotel" name="Alojamiento_1_1" class="Radio_Alojamiento" type="radio" value="Hotel">
+                    <label class="Texto_Alojamiento">Hotel</label>
+                </div>
+                <div name="Alojamiento_2">
+                    <input id="Apartamento" name="Alojamiento_1_1" class="Radio_Alojamiento" type="radio" value="Apartamento">
+                    <label class="Texto_Alojamiento">Apartamento</label>
+                </div>
+                <div name="Alojamiento_3">
+                    <input id="Apartahotel" name="Alojamiento_1_1" class="Radio_Alojamiento" type="radio" value="Apartahotel">
+                    <label class="Texto_Alojamiento">Apartahotel</label>
+                </div>
+                <div name="Alojamiento_4">
+                    <input id="Casa" name="Alojamiento_1_1" class="Radio_Alojamiento" type="radio" value="Casa">
+                    <label class="Texto_Alojamiento">Casa</label>
+                </div>
+                <div name="Descripcion_Filtros">
+                    <label class="Descripcion" for="Filtros">Filtros:</label>
+                </div>
+                <div id="Filtros">
+                    <div>
+                        <input id="Desayuno" name="Filtros_1" class="Filtros_Checkbox" type="checkbox" value="Desayuno"/>
+                        <label class="Texto_Checkbox">Desayuno incluido</label>
+                    </div>
+                    <div>
+                        <input id="Cancelacion" name="Filtros_2" class="Filtros_Checkbox" type="checkbox" value="Cancelacion"/>
+                        <label class="Texto_Checkbox">Cancelacion gratuita</label>
+                    </div>
+                    <label class="Descripcion">Estrellas:</label>
+                    <div id="Estrellas">
+                        <div>
+                            <input id="1_estrella" name="Estrella_1" class="Estrella_Checkbox" type="checkbox" value="1"/>
+                            <label class="Texto_Estrella_Checkbox">1 Estrella</label>
+                        </div>
+                        <div>
+                            <input id="2_estrella" name="Estrella_2" class="Estrella_Checkbox" type="checkbox" value="2"/>
+                            <label class="Texto_Estrella_Checkbox">2 Estrellas</label>
+                        </div>
+                        <div>
+                            <input id="3_estrella" name="Estrella_3" class="Estrella_Checkbox" type="checkbox" value="3"/>
+                            <label class="Texto_Estrella_Checkbox">3 Estrellas</label>
+                        </div>
+                        <div>
+                            <input id="4_estrella" name="Estrella_4" class="Estrella_Checkbox" type="checkbox" value="4"/>
+                            <label class="Texto_Estrella_Checkbox">4 Estrellas</label>
+                        </div>
+                        <div>
+                            <input id="1_estrella" name="Estrella_1" class="Estrella_Checkbox" type="checkbox" value="5"/>
+                            <label class="Texto_Estrella_Checkbox">5 Estrellas</label>
+                        </div>
+                    </div>
+                    <div>
+                        <input id="Baño" name="Filtros_3" class="Filtros_Checkbox" type="checkbox" value="Baño"/>
+                        <label class="Texto_Checkbox">Baño privado</label>
+                    </div>
+                    <div>
+                        <input id="Piscina" name="Filtros_4" class="Filtros_Checkbox" type="checkbox" value="Piscina"/>
+                        <label class="Texto_Checkbox">Piscina</label>
+                    </div>
+                    <div>
+                        <input id="Playa" name="Filtros_5" class="Filtros_Checkbox" type="checkbox" value="Playa"/>
+                        <label class="Texto_Checkbox">Cerca de la playa</label>
+                    </div>
+                    <div>
+                        <input id="Parking" name="Filtros_6" class="Filtros_Checkbox" type="checkbox" value="Parking"/>
+                        <label class="Texto_Checkbox">Parking</label>
+                    </div>
+                </div>
+                <div name="Boton">
+                    <input id="Boton" name="Buscar" class="Buscar-Button" type="button" value="Buscar">
+                </div>
+            </form>
+        </aside>
+        <section>
+            <div>
+                <img class="oferta1" src="../img/1.jpg" alt="oferta1">
+                <h1>Sevilla desde 109€</h1>
+            </div>
+            <div>
+                <img class="oferta1" src="../img/2.jpg" alt="oferta1">
+                <h1>Madrid desde 112€</h1>
+            </div>
+            <div>
+                <img class="oferta1" src="../img/3.jpg" alt="oferta1">
+                <h1>Sevilla desde 71€</h1>
+            </div>
+            <div>
+                <img class="oferta1" src="../img/4.jpg" alt="oferta1">
+                <h1>Sevilla desde 74€</h1>
+            </div>
+                     
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2021 Juan</p>
+    </footer>
+</body>
+</html>
