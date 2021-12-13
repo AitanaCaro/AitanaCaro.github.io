@@ -362,7 +362,10 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
 
         font-size: 10pt;
     }
-
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
     div.tronco {        
         margin: 0px;
         background-color: white;
@@ -375,9 +378,14 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
     .boton {
         width: 30vw;
         height: 6vh;
-        margin-left: 10%;
+        margin-left: 8%;
     }
-
+    aside img{
+        height: 225px;
+        width: 325px;
+        filter: none;
+        margin-left: 0%;
+    }
     header {
         display: flex;
         flex-direction: column;
@@ -386,7 +394,7 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
         width: 100vw;
         margin-top: 0;
         position: inherit;
-        min-height: 20vh;
+        min-height: 30vh;
     }
     .secciones{
         display: flex;
