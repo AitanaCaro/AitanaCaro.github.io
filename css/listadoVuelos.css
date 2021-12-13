@@ -357,7 +357,6 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
         align-items: center;
         max-width: 100vw;
         min-height: 100vh;
-
         font-size: 10pt;
     }
 
@@ -493,5 +492,6 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
     footer {
         background-color: #FF0000;
         height: 7vh;
+        width: 100vw;
     }
 }
