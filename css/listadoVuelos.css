@@ -50,7 +50,13 @@ header li {
     padding: 5px;
     transition: 0.5s;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
+li:hover a{
+    color: white;
+}
 header li:hover {
     background-color: #FF0000;
     color: white;
