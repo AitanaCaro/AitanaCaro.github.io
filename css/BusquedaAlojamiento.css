@@ -151,6 +151,11 @@ section > div > h1
     max-height: 25vh;
     
 }
+section div:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 /*Pie de pagina*/
 footer 
 {
