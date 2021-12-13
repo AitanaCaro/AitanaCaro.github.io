@@ -351,7 +351,6 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
 @media only screen and (max-width: 600px) {
     body{
         margin: 0;
-        overflow: scroll;
     }
     main {
         display: flex;
@@ -364,9 +363,8 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
         font-size: 10pt;
     }
 
-    div.tronco {
-        
-        margin: 0px 50px;
+    div.tronco {        
+        margin: 0px;
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -382,7 +380,8 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
 
     header {
         display: flex;
-        align-items: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
         justify-content: center;
         width: 100vw;
         margin-top: 0;
@@ -439,6 +438,8 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
     }
     header nav li{
         font-size: 13pt;
+        margin: 0;
+        padding: 2px 20px;
     }
     .box {
         margin: 0;
