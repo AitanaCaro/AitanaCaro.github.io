@@ -351,6 +351,7 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
 @media only screen and (max-width: 600px) {
     body{
         margin: 0;
+        overflow: scroll;
     }
     main {
         display: flex;
@@ -359,7 +360,8 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
         align-items: center;
         max-width: 100vw;
         min-height: 100vh;
-        overflow: scroll;
+
+        font-size: 10pt;
     }
 
     div.tronco {
@@ -375,7 +377,7 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
     .boton {
         width: 30vw;
         height: 6vh;
-        margin-left: 30%;
+        margin-left: 10%;
     }
 
     header {
@@ -406,9 +408,17 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
     .vuelos,.vuelo{
         padding: 0%;
     }
-    section.mejorOferta,section.masBarato,section:not(section.mejorOferta):not(section.masBarato) {
+    section {
         padding: 2%;
-        margin: 10%;
+        margin-left: 15%;
+        width: fit-content;
+    }
+    .tiempo img{
+        width: 80;
+        height: 20px;
+    }
+    .vuelo, .vuelos{
+        margin: 0;
     }
     .derecha{
         margin: 0;
@@ -434,4 +444,12 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
         margin: 0;
         display: none;
     }
+    div.imagenCompañia img{
+        width: 25px;
+        height: 25px;
+    }
+    div.imagenCompañia, .horaDestino, .tiempo, .info{
+        margin: 0;
+    }
+    
 }
