@@ -60,7 +60,7 @@ header li
 
 header li:hover 
 {
-    background-color: #8f2233;
+    background-color: red;
     color: white;
 }
 
@@ -103,7 +103,7 @@ div
     flex-direction: column;
     border: 1px solid black;
     margin: 15px;
-    background-color: #8f2233;
+    background-color: #181966;
 }
 #Filtros
 {
@@ -112,10 +112,14 @@ div
 }
 .Buscar-Button
 {
-    color: rgb(7, 7, 7);
-    background-color: #8f2233;
+    color: white;
+    background-color: #181966;
     border-radius: 15px;
-    border: #8f2233;
+    border: #181966;
+}
+.Texto_Fecha, .Viaje, .Radio_Alojamiento, .Filtros_Checkbox, .Estrella_Checkbox, .Buscar-Button:hover
+{
+    cursor: pointer;
 }
 /*Ofertas*/
 section 
@@ -126,7 +130,7 @@ section
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-color: #8f2233;
+    background-color: #181966;
     min-width: 65vw;
     padding: 50px;
 }
@@ -136,7 +140,7 @@ section > div
     align-items: center;
     margin: 10px;
     border: double black;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(20, 20, 20);
 }
 section > div > h1
 {
