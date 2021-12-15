@@ -47,10 +47,11 @@ header li:hover a {
 
     color: white;
     transition: 0.5s;
+    text-decoration: underline;
 }
 
 header li a:visited {
-    color: white;
+    color: black;
 }
 
 header li {
@@ -68,6 +69,7 @@ header li:hover {
     background-color: red;
     color: white;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 
@@ -143,7 +145,6 @@ header li:hover {
 .formulariobusqueda form {
     display: flex;
     justify-content: center;
-    min-width: 50vh;
     color: black;
 }
 
@@ -361,21 +362,14 @@ header li:hover {
 
 /* Sección de informacion footer */
 
-footer .informacion {
-    height: 50px;
-    background-color: #1C2833;
-    padding: 60px 0;
+.informacion {
+    padding: 20px;
+    background-color: black;
 }
 
-footer .footer-textos {
+.informacion .contenedor h1 {
     text-align: center;
-    color: #fff;
-    font-size: 25px;
-}
-
-.footer {
-    height: 200px;
-    flex-direction: row;
+    color: white;
 }
 
 
@@ -425,6 +419,10 @@ footer .footer-textos {
         transform: scale(1.2);
     }
 
+    .informacion .contenedor h1 {
+        font-size: 12pt;
+    }
+
 
 }
 
@@ -460,6 +458,10 @@ footer .footer-textos {
 
     .centrado:hover {
         transform: scale(1.2);
+    }
+
+    .informacion .contenedor h1 {
+        font-size: 12pt;
     }
 }
 
@@ -514,6 +516,10 @@ footer .footer-textos {
         transform: scale(1.2);
     }
 
+    .informacion .contenedor h1 {
+        font-size: 10pt;
+    }
+
 }
 
 @media screen and (max-width: 380px) {
@@ -535,11 +541,6 @@ footer .footer-textos {
 
     .logo {
         width: 250px;
-    }
-
-
-    .formulariobusqueda .form-group {
-        flex-direction: column;
     }
 
     header .portada .lineadecoracion {
@@ -565,6 +566,10 @@ footer .footer-textos {
 
     .centrado:hover {
         transform: scale(1.2);
+    }
+
+    .informacion .contenedor h1 {
+        font-size: 10pt;
     }
 
 
