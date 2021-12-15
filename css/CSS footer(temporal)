@@ -1,0 +1,32 @@
+iframe
+{
+    padding-left: 180px;
+}
+
+footer
+{
+    padding: 20px;
+}
+
+.pie
+{
+    float: left;
+    text-align: left;
+    border-left: 1px solid #ffffff3d;
+    border-right: 1px solid #ffffff3d;
+    padding: 5px;
+}
+
+.pie>div
+{
+    padding: 15px;
+}
+.pie>div>span
+{
+    padding: 15px;
+}
+
+.pie>h3
+{
+    text-align: center;
+}
