@@ -367,15 +367,65 @@ header li:hover {
     background-color: black;
 }
 
-.informacion .contenedor h1 {
+.informacion h1 {
     text-align: center;
     color: white;
+}
+
+.datosMapa {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.informacion .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+iframe {
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.pie {
+    float: left;
+    text-align: left;
+    border-left: 1px solid #ffffff3d;
+    border-right: 1px solid #ffffff3d;
+    padding: 5px;
+    color: white;
+}
+
+.pie>div {
+    padding: 15px;
+}
+
+.pie>h3 {
+    text-align: center;
+}
+
+footer>h1 {
+    text-align: center;
 }
 
 
 /*  Media query */
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:1256px) {
+
+    iframe {
+        width: 450px;
+        height: 350px;
+
+    }
+}
+
+@media screen and (max-width:1125px) {
     header .menu {
         justify-content: center;
         margin-right: 0px;
@@ -419,8 +469,23 @@ header li:hover {
         transform: scale(1.2);
     }
 
-    .informacion .contenedor h1 {
+    .informacion h1 {
         font-size: 12pt;
+    }
+
+    .informacion .contenedor {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 550px;
+        height: 450px;
+
+    }
+
+    .contenedor .datosMapa {
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -460,8 +525,23 @@ header li:hover {
         transform: scale(1.2);
     }
 
-    .informacion .contenedor h1 {
+    .informacion h1 {
         font-size: 12pt;
+    }
+
+    .informacion .contenedor {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 350px;
+        height: 250px;
+
+    }
+
+    .contenedor .datosMapa {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -516,9 +596,27 @@ header li:hover {
         transform: scale(1.2);
     }
 
-    .informacion .contenedor h1 {
+    .informacion h1 {
         font-size: 10pt;
     }
+
+    .informacion .contenedor {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .contenedor .datosMapa {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
 
 }
 
@@ -570,6 +668,22 @@ header li:hover {
 
     .informacion .contenedor h1 {
         font-size: 10pt;
+    }
+
+    .contenedor .datosMapa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informacion .contenedor {
+        flex-direction: column;
+    }
+
+
+    iframe {
+        width: 250px;
+        height: 150px;
+
     }
 
 
