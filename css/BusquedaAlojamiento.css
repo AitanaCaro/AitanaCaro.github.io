@@ -154,19 +154,68 @@ section div:hover
     cursor: pointer;
 }
 /*Pie de pagina*/
-footer 
+.datosMapa
 {
     display: flex;
-    min-height: 10vh;
-    background-color: white;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: column;
-    border: 5px;
-    border-style: double;
-    margin-top: 20px;
+    flex-direction: row;
 }
-footer > p
+
+iframe
 {
-margin: 5px;
+    padding-left: 20px;
+}
+
+footer
+{
+    padding: 20px;
+    background-color: white;
+}
+
+.pie
+{
+    float: left;
+    text-align: left;
+    border-left: 1px solid rgba(0, 0, 0, 0.63);
+    border-right: 1px solid rgba(0, 0, 0, 0.63);
+    padding: 5px;
+}
+
+.pie>div
+{
+    padding: 15px;
+}
+
+.pie>h3
+{
+    text-align: center;
+}
+footer > h1
+{
+    text-align: center;
+}
+/*Media*/
+
+@media screen and (max-width: 425px)
+{
+    main
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    section img
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .datosMapa
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    iframe
+    {
+        padding-left: 20px;
+        width: 250px;
+        height: 150px;
+    }
 }
