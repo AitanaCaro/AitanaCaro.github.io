@@ -50,10 +50,6 @@ header li:hover a {
     text-decoration: underline;
 }
 
-header li a:visited {
-    color: black;
-}
-
 header li {
     transition: 0.5s;
     margin-left: 20px;
