@@ -284,12 +284,6 @@ img {
     opacity: 1;
 }
 
-fieldset {
-    border-color: lightgreen;
-    border: 5px solid lightgreen;
-    padding: 3px;
-}
-
 .secciones {
     display: flex;
     flex-direction: row;
