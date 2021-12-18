@@ -139,7 +139,7 @@ aside {
     justify-content: space-between;
 }
 
-h1 {
+h2 {
     font-size: 22pt;
     font-weight: 600;
 }
@@ -183,19 +183,19 @@ h3 {
     color: black;
 }
 
-section.mejorOferta {
+div.mejorOferta {
     border: 3px solid #FF0000;
     margin: 3%;
     padding: 2%;
 }
 
-section.masBarato {
+div.masBarato {
     border: 3px solid #FF0000;
     padding: 2%;
     margin: 3%;
 }
 
-section:not(section.mejorOferta):not(section.masBarato) {
+div.section:not(section.mejorOferta):not(section.masBarato) {
     border: 1px solid rgb(141, 141, 141);
     display: flex;
     flex-direction: column;
@@ -331,11 +331,11 @@ img {
 }
 
 /**/
-section:hover {
+div[class^="m"]:hover {
     border: 3px solid #0080ff;
 }
 
-section:not(section.mejorOferta):not(section.masBarato):hover {
+div.section:not(section.mejorOferta):not(section.masBarato):hover {
     border: 3px solid #3005a8;
 }
 /*FOOTER*/
