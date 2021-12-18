@@ -119,15 +119,6 @@ i {
 
 /*FIN CABECERA*/
 
-footer {
-    order: 100;
-}
-
-footer {
-    background-color: #FF0000;
-    height: 7vh;
-}
-
 article {
     order: 2;
     min-height: 86vh;
@@ -170,7 +161,6 @@ aside img:hover {
 /*FIN ASIDE*/
 div.tronco {
     margin: 0;
-    background-color: #f8fcff;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -354,8 +344,52 @@ section:hover {
 section:not(section.mejorOferta):not(section.masBarato):hover {
     border: 3px solid #3005a8;
 }
+/*FOOTER*/
 
-@media only screen and (max-width: 600px) {
+iframe
+{
+    padding-left: 180px;
+}
+
+footer
+{
+    border-top: 5px solid #0080ff;
+    padding: 20px;
+    background-color: #444444;
+    color: white;
+    
+}
+footer>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.pie
+{
+    float: left;
+    text-align: left;
+    border-left: 1px solid #ffffff3d;
+    border-right: 1px solid #ffffff3d;
+    padding: 5px;
+}
+
+.pie>div
+{
+    padding: 15px;
+}
+.pie>div>span
+{
+    padding: 15px;
+}
+
+.pie>h3
+{
+
+    align-self: center;
+}
+/**/
+
+@media only screen and (max-width: 420px) {
     body{
         margin: 0;
     }
@@ -366,7 +400,6 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
         align-items: center;
         max-width: 100vw;
         min-height: 100vh;
-
         font-size: 10pt;
     }
     .logo{
@@ -430,6 +463,10 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
     }
     .derecha{
         margin: 0;
+        max-width: 100vw;
+    }
+    nav{
+        max-width: 100vw;
     }
     ul.nav-items{
         display: none;
@@ -473,6 +510,13 @@ section:not(section.mejorOferta):not(section.masBarato):hover {
     footer {
         background-color: #FF0000;
         height: 7vh;
-        width: 100vw;
+        min-width: 100vw;
+    }
+    footer>div{
+        display: none;
+    }
+    footer h1{
+        font-size: 11pt;
+        text-align: center;
     }
 }
