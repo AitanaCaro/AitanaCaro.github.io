@@ -1,0 +1,433 @@
+body
+{
+    margin: 0;
+    
+
+
+}
+main
+{
+    min-height: 100vh;
+    max-width: 100vw;
+}
+header
+{
+    height: 20vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+article
+{
+    background-color: rgb(167, 167, 167);
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    padding-top: 20px;
+
+}
+br
+{
+ background-color: white;
+}
+.Segundo
+{
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: url(../img/atardecer-rosa-en-la-playa-3341.jpg);
+    background-repeat: unset;
+    
+   
+}
+.derecha
+{
+    width: 100%;
+    min-width: 60vw;
+    max-width: 60vh;
+
+}
+.Imagen1
+{
+    border-radius: 10px;
+
+}
+.Button1
+{
+    margin-left: 10px;
+}
+.Button2
+{
+    margin-left: 10px;
+}
+.Button3
+{
+    margin-left: 10px;
+}
+.Button4
+{
+    margin-left: 10px;
+}
+.Button5
+{
+    margin-left: 10px;
+}
+.Button6
+{
+    margin-left: 10px;
+}
+.Oferta1
+{
+    text-align: center;
+    margin: 20px;
+}
+.Oferta2
+{
+    text-align: center;
+    margin: 20px;
+}
+.Oferta3
+{
+    text-align: center;
+    margin: 20px;
+
+}
+.Oferta4
+{
+ 
+    text-align: center;
+    margin: 20px;
+    
+}
+.Uno
+{
+    
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.Dos
+{
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.Tres
+{
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.Cuatro
+{
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav li
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    display: inline-block;
+    flex-direction: flex;
+    font-size: 25px;
+    padding: 40px;
+    
+    
+}
+
+li
+{
+    padding: 5px;
+    transition: 0.5s;
+}
+li:hover
+{
+    background-color: #6e0f0f ;
+    color: white;
+}
+
+
+header>img
+{
+    height: 20vh;
+    width: 30%;
+}
+div
+{
+    width: 100%;
+    height: 20vh;
+}
+.container-2
+{
+    width: 100%;
+
+    
+  }
+.container-2 input#search{
+
+    margin-top: 60px ;
+    width: 70px;
+    height: 70px;
+    background: #6e0f0f;
+    border: none;
+    position: relative;
+    font-size: 15pt;
+    color: #262626;
+    padding-left: 70px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+   
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+}
+.container-2 input#search::-webkit-input-placeholder {
+    color: #ffffff;
+    
+
+}
+.container-2 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;  
+
+}
+.container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #ffffff;  
+
+} 
+.container-2 input#search:-ms-input-placeholder {  
+    color: #ffffff;
+
+}
+.container-2 .icon{
+
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 30px;
+
+    z-index: 1;
+    color: #ffffff;
+
+}
+.container-2 input#search:focus, .container-2 input#search:active
+{
+    outline:none;   
+} 
+.container-2:hover input#search
+{ 
+    width: 300px;
+    justify-content: justify;
+    align-content: center;
+}  
+.container-2:hover .icon
+{
+    color: #ffffff;
+}
+.box:hover i{
+
+    opacity: 100;
+}
+form
+{
+    padding:10px;
+    margin: 10px;
+    padding-right: 5px;
+}
+fieldset
+{
+    padding:10px;
+    margin: 10px;
+    
+}
+aside
+{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+fieldset
+{
+    border: 3px solid #6e0f0f;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;
+}
+footer
+{
+    background-color: #a172ec;
+    height: 10vh;
+    flex-direction: column;
+}
+input[type=checkbox] {
+    transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    padding: 10px;
+}
+input[type=reset] {
+    float: right;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px solid;
+
+}
+input[type=submit] {
+    float: right;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px solid;
+}
+
+/*@media only screen and (max-width: 420px) {
+    body{
+        margin: 0;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+        min-height: 100vh;
+        font-size: 10pt;
+    }
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
+    div.tronco {        
+        margin: 0px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton {
+        width: 30vw;
+        height: 6vh;
+        margin-left: 8%;
+    }
+    aside img{
+        height: 225px;
+        width: 325px;
+        filter: none;
+        margin-left: 0%;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 0;
+        position: inherit;
+        min-height: 30vh;
+    }
+    .secciones{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .vertical{
+        height: 0vh;
+        width: 70%;
+    }
+    .horizontal{
+        width: 50%;
+    }
+    .detallesVuelo,.vuelos,.vuelo{
+        margin: 0;
+        padding: 0;
+    }
+    section {
+        padding: 2%;
+        margin-left: 15%;
+        width: fit-content;
+    }
+    .tiempo img{
+        width: 80;
+        height: 20px;
+    }
+    .derecha{
+        margin: 0;
+        max-width: 100vw;
+    }
+    nav{
+        max-width: 100vw;
+    }
+    ul.nav-items{
+        display: none;
+    }
+    header nav ul{
+        display: flex;
+        max-width: 70%;
+        overflow: scroll;
+        margin: 0;
+        padding: 0;
+    }
+    header nav{
+        margin: 0;
+        padding: 0;
+    }
+    header nav li{
+        font-size: 13pt;
+        margin: 0;
+        padding: 2px 20px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    header li:hover a {
+        background-color: #FF0000;
+        color: white;
+    }
+    .box {
+        margin: 0;
+        display: none;
+    }
+    div.imagenCompañia img{
+        width: 25px;
+        height: 25px;
+    }
+    div.imagenCompañia, .horaDestino, .tiempo, .info{
+        margin: 0;
+    }
+    footer {
+        background-color: #FF0000;
+        height: 7vh;
+        min-width: 100vw;
+    }
+    footer>div{
+        display: none;
+    }
+    footer h1{
+        font-size: 11pt;
+        text-align: center;
+    }
+}
