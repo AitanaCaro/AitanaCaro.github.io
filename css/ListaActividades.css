@@ -15,9 +15,11 @@ header
     border-bottom: 1px solid black;
 }
 
-ul li
+ul li a
 {
     list-style: none;
+    text-decoration: none;
+    color: black;
 }
 
 nav li
@@ -34,10 +36,14 @@ li
     padding: 5px;
     transition: 0.5s;
 }
-li:hover
+li:hover 
 {
-    background-color: #8f2233;
-    border: 1px solid black;
+    background-color: red;
+    color: white;
+}
+
+li:hover a
+{
     color: white;
 }
 
@@ -50,7 +56,7 @@ li:hover
 
 header>img
 {
-    width: 200px;
+    width: 220px;
     height: 220px;
 }
 /*BUSCADOR*/
@@ -66,7 +72,7 @@ header>img
     width: 80px;
     height: 80px;
     background: none;
-    border: 4px solid #8f2233;
+    border: 4px solid red;
     border-radius: 50px;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -79,7 +85,7 @@ header>img
     width: 350px;
     background: #ffffff;
     border-radius: 10px;
-    color: #8f2233;
+    color: red;
 }
 i{
     position: absolute;
@@ -87,7 +93,7 @@ i{
     right: 15px;
     transform: translate(-50%,-50%);
     font-size: 26px;
-    color: #8f2233;
+    color: red;
     transition: 0.2s;
 }
 .box:hover i{
@@ -103,7 +109,9 @@ section
 
 .actividades
 {
-    margin-left: 10px;
+    margin-left: 690px;
+    min-height: 50vh;
+    max-width: 25vw;
     border: 1px solid #2a36383d;
     padding: 12px;
     margin-bottom: 20px;
@@ -114,7 +122,7 @@ section
 {
     height: 250px;
     width: 330px;
-    margin-left: 10px;
+    margin-left: 65px;
     border-radius: 25px;
     transition: 0.5s;
 }
@@ -158,16 +166,17 @@ button:hover
 }
 
 details.desplegable {
-	padding: 1em;
-	margin-bottom: 1em;
-	transition: all 0.4s ease-in-out;
-	max-height: 20px;
+    padding: 1em;
+	transition: all 1s ease-in-out;
+	max-height: 50px;
     overflow: hidden;
 }
 
 details[open].desplegable 
 {
-    max-height: 500px;
+    min-height: 57vh;
+    background-color: black;
+    color: white;
 }
 
 details[open].desplegable summary {
@@ -191,4 +200,198 @@ details summary {
     box-shadow: 3px 3px 20px rgba(0,0,0,15);
     content: url("../img/capilla-sixtina-vaticano-roma-t.jpg");
 }
+
+aside
+{
+    max-width: 100vw;
+}
+
+h2
+{
+    text-align: center;
+}
+
+section>div
+{
+    min-height: 25vh;
+    max-width: 100vw;
+}
+
+.caja
+{
+    background-color: aliceblue;
+    transition: 3s;
+}
+.caja:hover
+{
+    box-shadow: 0 0 120px rgba(18, 55, 88, 0.40), 0 0 200px rgba(18, 55, 88, 0.3), 0 0 300px rgba(18, 55, 88, 0.2);
+}
+
+.caja>div
+{
+    float: right;
+    padding-right: 35px;
+    margin-right: 500px;
+}
+
+.caja>div>form
+{
+    margin-bottom: 30px;
+}
+
+.caja>div>div>form>div>input
+{
+    margin-bottom: 15px;
+}
+
+.caja>div>div>form>div>input:first-child
+{
+    margin-top: 15px;
+}
+
+iframe
+{
+    padding-left: 180px;
+}
+
+footer
+{
+    padding: 20px;
+}
+
+.pie
+{
+    float: left;
+    text-align: left;
+    border-left: 1px solid #ffffff3d;
+    border-right: 1px solid #ffffff3d;
+    padding: 5px;
+}
+
+.pie>div
+{
+    padding: 15px;
+}
+.pie>div>span
+{
+    padding: 15px;
+}
+
+.pie>h3
+{
+    text-align: center;
+}
+
+
+summary
+{
+    text-align: center;
+}
+
+@media screen and (max-width: 1600px)
+{
+    section>div
+    {
+        min-height: 35vh;
+        max-width: 100vw;
+    }
+    .actividades
+    {
+        margin-left: 580px;
+    }
+    details[open].desplegable 
+    {
+        min-height: 69vh;
+    }
+    .actividades>img
+    {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .box
+    {
+        padding-right: 400px;
+    }
+    i
+    {
+        padding-right: 265px;
+    }
+    .box:hover input
+    {
+        width: 200px;
+    }
+    header
+    {
+        max-width: 70vw;
+    }
+    iframe
+    {
+        margin-top: 20px;
+        padding-right: 140px;
+        width: 400px;
+        height: 250px;
+    }
+    .caja>div
+    {
+        margin-right: 120px;
+    }
+    .actividades
+    {
+        margin-left: 200px;
+        max-width: 45vw;
+        min-height: 30vh;
+    }
+    .actividades>img
+    {
+        height: 170px;
+        width: 230px;
+    }
+    .actividades>img:hover
+    {
+        height: 200px;
+        width: 280px;
+    }
+    details[open].desplegable 
+    {
+        min-height: 47vh;
+    }
+    .caja>div>form
+    {
+        margin-bottom: 20px;
+    }
+
+    .caja>div>div>form>div>input
+    {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
