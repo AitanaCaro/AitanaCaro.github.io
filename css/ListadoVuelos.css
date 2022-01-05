@@ -1,0 +1,345 @@
+body
+{
+    margin: 0;
+    
+
+
+}
+main
+{
+    min-height: 100vh;
+    max-width: 100vw;
+}
+header
+{
+    height: 20vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+article
+{
+    background-color: rgb(204, 198, 198);
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 100%;
+
+}
+br
+{
+
+ background-color: white;
+}
+.Fild
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.26);
+    box-shadow: 10px 10px 10px 10px rgb(117, 109, 109);
+    border: 5px double rgb(255, 255, 255) ;
+    border-radius: 40px;
+    box-shadow: 5px 5px 25px rgb(102, 14, 110) ;
+    margin-top: 3%;
+    color: white;
+    
+      
+
+}
+.Fildi
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Segundo
+{
+
+    height: auto;
+    background: url(../img/atardecer-rosa-en-la-playa-3341.jpg);
+    background-repeat: unset;
+    background-size: cover;
+}
+a
+{
+    text-decoration: none;
+}
+.derecha
+{
+
+    
+    width: 70%;
+
+}
+form
+{
+    justify-content: right;
+    align-items: center;
+}
+.Imagen1
+{
+
+    color: #ffffff;
+    height: 20vh;
+    float: justify;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.Button1
+{
+    margin-left: 10px;
+}
+.Button2
+{
+    margin-left: 10px;
+}
+.Button3
+{
+    margin-left: 10px;
+}
+.Button4
+{
+    margin-left: 10px;
+}
+.Button5
+{
+    margin-left: 10px;
+}
+.Button6
+{
+    margin-left: 10px;
+}
+.Oferta1
+{
+
+    text-align: center;
+    background-image: url(../img/espana_madrid_granvia_shutterstockrf_179784317_ventdusud_shutterstock.jpg);
+    width: 100%;
+    max-width: 600px;
+    background-size: cover;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+
+
+}
+
+.Oferta2
+{
+
+    text-align: center;
+    background-image: url(../img/6-h.jpg);
+    width: 100%;
+    max-width: 600px;
+    background-size: cover;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+
+}
+.Oferta3
+{
+
+    text-align: center;
+    background-image: url(../img/qpx-152378209_cbb96df3.jpg);
+    width: 100%;
+    max-width: 600px;
+    background-size: cover;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+.Oferta4
+{
+    
+    text-align: center;
+    background-image: url(../img/eiffel-tower-in-paris-151-medium.jpg);
+    width: 100%;
+    max-width: 600px;
+    background-size: cover;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    
+}
+.Uno
+{
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+
+}
+.Dos
+{
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    
+}
+.Tres
+{
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+
+    justify-content: center;
+}
+.Cuatro
+{
+
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+
+    justify-content: center;
+}
+
+ul li
+{
+
+    list-style: none;
+    margin-left: 50px;
+}
+nav li
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    display: inline-block;
+    flex-direction: flex;
+    font-size: 25px;
+    padding: 40px;  
+}
+li
+{
+    padding: 5px;
+    transition: 0.5s;
+}
+li:hover
+{
+    background-color: rgb(204, 198, 198);
+    color: white;
+}
+header>img
+{
+    width: 10%;
+}
+
+.container-2
+{
+    width: 20%;
+}
+.container-2 input#search{
+
+    margin-top: 60px ;
+    width: 70px;
+    height: 70px;
+    background: rgb(204, 198, 198);
+    border: none;
+    position: relative;
+    font-size: 15pt;
+    color: #262626;
+    padding-left: 70px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+   
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+}
+.container-2 input#search::-webkit-input-placeholder {
+    color: #ffffff;
+}
+.container-2 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;  
+}
+.container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #ffffff;  
+} 
+.container-2 input#search:-ms-input-placeholder {  
+    color: #ffffff;
+}
+.container-2 .icon{
+
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 30px;
+    z-index: 1;
+    color: #ffffff;
+}
+.container-2 input#search:focus, .container-2 input#search:active
+{
+    outline:none;   
+} 
+.container-2:hover input#search
+{ 
+    width: 300px;
+    justify-content: justify;
+    align-content: center;
+}  
+.container-2:hover .icon
+{
+    color: #ffffff;
+}
+.box:hover i{
+    opacity: 100;
+}
+form
+{
+    padding:20px;
+    margin: 20px;
+    align-items: center;
+}
+aside
+{
+    padding:60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+fieldset
+{
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;
+    
+}
+footer
+{
+    background-color: rgb(204, 198, 198);
+    height: 10vh;
+    flex-direction: column;
+    text-align: right;
+    color:#ffffff;
+    font-weight: bold;
+}
+input[type=checkbox] {
+    transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    padding: 30px;
+}
+input[type=reset] {
+    float: right;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px solid;
+}
+input[type=submit] {
+    float: right;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px solid;
+}
